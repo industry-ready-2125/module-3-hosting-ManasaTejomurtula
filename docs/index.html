@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milky Scoops</title>
+</head>
+<style>
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        background-color:rgb(247, 186, 196)
+    }
+    .flex-container .title {
+        flex: 1;
+        text-align: left;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .flex-container .flex-item {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+        padding: 30px 20px;
+       
+    }
+    .flex-container .flex-item a{
+        text-decoration: none;
+        color: black;
+    }
+    .flex-container .flex-item a:hover{
+        background-color:whitesmoke;
+    }
+    .content{
+            background-color: rgb(247, 186, 196)
+    }
+    
+</style>
+<body>
+    <div class="flex-container">
+        <div class="title"><h2>Milky scoops</h2></div>
+        <div class="flex-item">
+            <a href="#">Home</a>
+            <a href="E:\HTML\Static web page\menu.html">Menu</a>
+            <a href="E:\HTML\Static web page\about.html">About</a>
+            <a href="E:\HTML\Static web page\blog.html">Blog</a>
+            <a href="E:\HTML\Static web page\contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="image">
+        <img src="ice-cream.jpg" alt="icecream" style="width: 100%; height: 500px;">
+    </div>
+    <div class="content">
+        <h2>Welcome to Milky Scoops!!</h2>
+        <p>At Milky Scoops, we believe in delivering the <b>creamiest and most delicious</b> ice cream to our customers. </p>
+        <p>Explore our flavours in the <b>menu</b> section.</p>
+        <p>For any queries, contact us by visiting our <b>contact</b> page.</p>
+    </div>
+</body>
+</html>
