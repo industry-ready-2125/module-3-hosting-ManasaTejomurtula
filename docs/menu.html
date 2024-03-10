@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cup,.cone{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(241, 234, 235);
+    }
+    .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50%
+
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(247, 186, 196);
+    
+    justify-content: space-between;
+}
+.flavour,.price{
+    align-items: center;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#button{
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background-color: rgb(246, 169, 182);
+        border-radius: 12px;
+    }
+
+
+</style>
+<body>
+    <div class="title">
+        <h2>Milky Scoops Menu</h2>
+    </div>
+    
+    <div class="cup">
+        <h4>Icecream Cup Menu</h4>
+        <div class="total">
+        <div class="flex">
+        <div class="item"><h5 class="flavour">Vanilla</h5> <p class="price">$10.00</p></div>
+        <div class="item"><h5 class="flavour">Strawberry</h5><p class="price">$15.00</p></div>
+        <div class="item"><h5 class="flavour">Butterscotch</h5><p class="price">$20.00</p></div>
+        <div class="item"><h5 class="flavour">Chocolate</h5><p class="price">$25.00</p></div>
+    </div>
+    <div class="cupice"><img src="cupice.jpg" alt="cup" height="260px;" ></div>
+</div>
+    </div>
+    <div class="cone">
+        <h4>Icecream Cone Menu</h4>
+        <div class="total">
+        <div class="flex">
+        <div class="item"><h5 class="flavour">Vanilla</h5> <p class="price">$15.00</p></div>
+        <div class="item"><h5 class="flavour">Strawberry</h5><p class="price">$20.00</p></div>
+        <div class="item"><h5 class="flavour">Butterscotch</h5><p class="price">$25.00</p></div>
+        <div class="item"><h5 class="flavour">Chocolate</h5><p class="price">$30.00</p></div>
+    </div>
+    <div class="cupice"><img src="coneice.jpg" alt="cup" height="210px;" ></div>
+</div>
+    </div>
+    <br>
+    <form>
+        <input type="button" id="button" value="Order Now">
+    </form>
+</body>
+</html>
