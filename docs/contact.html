@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Milky Scoops</title>
+</head>
+<style>
+    *{
+        background-color: rgb(241, 234, 235);
+    }
+    nav ul li a{
+        text-decoration: none;
+    }
+    #name, #email, #message{
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background-color: rgb(246, 169, 182);
+    }
+    #button{
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 8px;
+        background-color: rgb(246, 169, 182);
+    }
+</style>
+<body>
+    <header>
+        <h1>Contact Milky Scoops</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Feel free to get in touch with us through the following channels:</p>
+            <ul>
+                <li>Email: info@milky-scoops.com</li>
+                <li>Phone: +1 (123) 456-7890</li>
+                <li>Address: 123 Ice Cream Avenue, Frosty Town, USA</li>
+            </ul>
+        </section>
+
+        <section id="contact-form">
+            <h2>Send us a Message</h2>
+            <form >
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+
+                <button  id ="button" type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Milky Scoops Ice Cream. All rights reserved.</p>
+    </footer>
+</body>
+</html>
